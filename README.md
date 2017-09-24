@@ -44,8 +44,7 @@ Everything sold at the Black Market is a testament to human culture, treasures, 
 
 (on the second time through, we'll excuse you if you have to get up and check how your new tofu roast beef recipe you found over the weekend is going)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mjWJsE7B1cs" frameborder="0" allowfullscreen></iframe>
-
+https://www.youtube.com/watch?v=mjWJsE7B1cs
 
 Got it? Let's get going then! Wait, hold on. Before you do that, would you mind contacting us?
 
