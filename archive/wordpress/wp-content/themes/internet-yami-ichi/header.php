@@ -36,7 +36,6 @@
   <header class="header">
     <a href="/">
       <h1><?php echo( get_bloginfo( 'title' ) ); ?></h1>
-      <h2><?php echo( get_bloginfo( 'description' ) ); ?></h2>
     </a>
   </header>
 
