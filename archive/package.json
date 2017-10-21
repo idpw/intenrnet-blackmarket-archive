@@ -1,0 +1,37 @@
+{
+  "name": "internet-yami-ichi",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Internet Black Market Archive",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/idpw/intenrnet-yami-ichi.git"
+  },
+  "scripts": {
+    "js": "webpack --progress --colors --watch",
+    "css": "gulp",
+    "deploy-js": "DEPLOY=1 webpack",
+    "deploy-css": "gulp deploy"
+  },
+  "author": "hgw",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "gulp-plumber": "^1.1.0",
+    "jquery": "^3.0.0",
+    "jquery.easing": "^1.4.1",
+    "js-cookie": "^2.1.4",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "masonry-layout": "^4.2.0",
+    "postcss-cssnext": "^3.0.2",
+    "run-sequence": "^2.1.0"
+  }
+}

@@ -1,0 +1,88 @@
+// l-grid
+// ======
+.l-grid {
+  @include clearfix();
+  margin-left: - ($gritter * 3) + px;
+}
+
+@for $i from 0 through 20 {
+  .l-grid-#{($i * 5)} {
+    float: left;
+    min-height: 1px;
+    padding-left: ($gritter * 3) + px;
+    width: percentage($i * 0.05);
+  }
+
+}
+
+.l-grid-33, .l-grid-66 {
+  float: left;
+  min-height: 1px;
+  padding-left: ($gritter * 3) + px;
+}
+
+.l-grid-33 {
+  width: 33.3333333%;
+}
+
+.l-grid-66 {
+  width: 66.6666666%;
+}
+
+.l-grid-news-list-left {
+  width: 77.5%;
+}
+
+.l-grid-news-list-right {
+  width: (100% - 77.5%);
+}
+
+// l-grid-sp
+// ===============
+.l-grid-sp-none {
+  @include responsive('sp') {
+    display: none;
+  }
+}
+
+@for $i from 0 through 20 {
+  .l-grid-#{($i * 5)}-sp {
+    float: left;
+    min-height: 1px;
+    padding-left: ($gritter * 3) + px;
+    @include responsive('sp') {
+      width: percentage($i * 0.05);
+    }
+  }
+}
+
+.l-grid-33-sp, .l-grid-66-sp {
+  float: left;
+  min-height: 1px;
+  padding-left: ($gritter * 3) + px;
+}
+
+.l-grid-33-sp {
+  @include responsive('sp') {
+    width: 33.3333333%;
+  }
+}
+
+.l-grid-66-sp {
+  @include responsive('sp') {
+    width: 66.6666666%;
+  }
+}
+
+// ======
+.l-text-align-left {
+  text-align: left;
+}
+
+.l-text-align-center {
+  text-align: center;
+}
+
+.l-text-align-right {
+  text-align: right;
+}
